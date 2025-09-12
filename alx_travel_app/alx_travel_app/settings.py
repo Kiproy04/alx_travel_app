@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-bc-fs%9$mx57r_t90@0t^=^q(9^5wp%yd(-=5prt-9#4ki5qi-'
+SECRET_KEY = 'django-insecure-b)3pr$sz&w_itaoglko^-a%2(0x9l(9(yk7vayic_hu^d0%65p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,10 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'listings.apps.ListingsConfig',
-    'rest_framework.authtoken',
-
 ]
 
 MIDDLEWARE = [
